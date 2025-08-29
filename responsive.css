@@ -1,0 +1,39 @@
+/* mobile responsive */
+
+@media (max-width: 640px) {
+  nav {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  nav div {
+    margin-top: 10px;
+  }
+
+  .card-section {
+    grid-template-columns: 1fr; 
+    padding: 20px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .card h1 {
+    font-size: 16px;
+  }
+
+  .card .service-number {
+    font-size: 18px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}
