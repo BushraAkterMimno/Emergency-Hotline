@@ -1,4 +1,4 @@
-// navbar heart counter select
+// navbar heart counter
 const heartCounter = document.querySelector("nav button span");
 let count = 0;
 
@@ -71,10 +71,9 @@ let coins = 100;
                     <h3 class="service-name font-bold">${serviceName}</h3>
                     <p class="service-number text-gray-600">${serviceNumber}</p>
                 </div>
-                <div class="pl-3">${time}</div>
-            `;
+                <div class="pl-3">${time}</div>`;
 
-            
+          
             historyContainer.insertBefore(historyDiv, historyContainer.firstChild);
         });
     });
@@ -83,17 +82,3 @@ let coins = 100;
     clearHistoryBtn.addEventListener("click", () => {
         historyContainer.innerHTML = "";
     });
-
-
-
-// local time
-// function showTime(){
-//   const now = new Date();
-//   const time = now.toLocaleTimeString();
-//   document.getElementById("localTime").innerText = timeString;
-
-//   showTime();
-// }
-// const now = new Date();
-// const time = now.toLocaleTimeString();
-// console.log(time);
